@@ -24,7 +24,8 @@ This weather app provides real-time weather information, including current condi
 2. Type a location in the search box and click the search icon to fetch weather data.
 ## 📸Screenshots
 # Hi, I'm Zeeshan! 👋
-
+![wa1](https://github.com/user-attachments/assets/486d8a4e-3dad-4c02-b826-b9d463b363de)
+![wa2](https://github.com/user-attachments/assets/5762e2d3-d94a-47de-90de-04a54fee2a12)
 
 ## 🚀 About Me
 I'm a Data Scientist and Data Analyst...
