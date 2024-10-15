@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<body>
+    <div class="container">
+        <div class="search-box">
+            <form>
+                <input type="text">
+                <button id="search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+        <div class="weather-content">
+            <img src="assets/weather-icons/clear-day.svg" id="weather-img">
+            <p id="weather-info">Sunny</p>
+            <p id="temperature">23°C</p>
+            <p id="location">Ranchi</p>
+        </div>
+        <div class="content">
+            <i class="fa-solid fa-water fa-xl"></i>
+            <div class="humidity">
+                <b>90</b>
+                <p class="label-p">Humidity</p>
+            </div>
+            <i class="fa-solid fa-wind fa-xl"></i>
+            <div class="wind">
+                <b>90</b>
+                <p class="label-p">Wind</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+<script src="weather_codes.js"></script>
+</html>
