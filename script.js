@@ -79,9 +79,9 @@ const update_weather = (weather_code, is_day) => {
     img_tag.src = "assets/weather-icons/clear-day.svg";
   } else if (is_day == 0 && weather == "clear sky") {
     img_tag.src = "assets/weather-icons/clear-night.svg";
-  } else if (is_day == 1 && weather == "partly") {
+  } else if (is_day == 1 && weather == "partly cloudy" || is_day == 1 && weather == "mainly clear") {
     img_tag.src = "assets/weather-icons/partly-cloudy-day.svg";
-  } else if (is_day == 0 && weather == "partly cloudy") {
+  } else if (is_day == 0 && weather == "partly cloudy" || is_day == 0 && weather == "mainly clear") {
     img_tag.src = "assets/weather-icons/partly-cloudy-night.svg";
   } else if (is_day == 1 && weather == "overcast") {
     img_tag.src = "assets/weather-icons/overcast-day.svg";
